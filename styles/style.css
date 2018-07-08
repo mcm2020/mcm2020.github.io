@@ -1,13 +1,13 @@
 html {
     font-size: 10px;
     font-family: 'Cantarell', sans-serif;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 217, 255);
 }
   
 body {
     width: 600px;
     margin: 0 auto;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     padding: 0 20px 20px 20px;
     border: 3px solid rgb(0, 217, 255);
 }
@@ -15,17 +15,17 @@ body {
 h1 {
     font-size: 60px;
     text-align: left;
-    color: white;
+    color: black;
     margin: 0;
     padding: 0 0;    
-    color: white;
 }
   
 p, li {
+    font-family: 'Courier New';
     font-size: 16px;    
     line-height: 2;
     letter-spacing: 1px;
-    color: white;
+    color: black;
     margin: 0;
 }
 
