@@ -35,6 +35,7 @@ img {
 }
 
 picture {
+    font-family: 'Courier New';
     display: block;
     text-align: center;
     font-size: 10px;
