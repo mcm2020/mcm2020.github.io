@@ -1,23 +1,24 @@
 html {
     font-size: 10px;
-    font-family: 'Cantarell', sans-serif;
-    background-color: rgb(0, 217, 255);
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(0, 204, 255);
 }
   
 body {
-    width: 600px;
-    margin: 0 auto;
+    width: 33%;
+    margin: 0 0;
     background-color: rgb(255, 255, 255);
     padding: 0 20px 20px 20px;
-    border: 3px solid rgb(0, 217, 255);
+    border: 3px solid rgb(0, 204, 255);
 }
 
 h1 {
+    text-shadow: 2px 2px rgb(0, 0, 0);
     font-size: 60px;
     text-align: left;
-    color: black;
-    margin: 0;
-    padding: 0 0;    
+    color: rgb(255, 255, 255);
+    margin: auto;
+    padding: auto;    
 }
   
 p, li {
@@ -26,7 +27,7 @@ p, li {
     line-height: 2;
     letter-spacing: 1px;
     color: black;
-    margin: 0;
+    margin: auto;
 }
 
 /*img {
