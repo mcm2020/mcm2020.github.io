@@ -8,7 +8,7 @@ body {
     margin: 0 auto 0 0;
     background-color: rgb(255, 255, 255);
     padding: 0 20px 20px 20px;
-    border: 10px outset rgb(0, 204, 255);
+    border: 10px solid rgb(0, 204, 255);
 }
 
 h1 {
@@ -20,7 +20,7 @@ h1 {
 }
   
 p, li {
-    margin: 0 0;
+    margin: auto;
     font-family: 'Courier New';
     font-size: 16px;    
     line-height: 2;
@@ -28,7 +28,15 @@ p, li {
     color: black;
 }
 
-/*img {
+img {
   display: block;
-  margin: 5px auto;
-}*/
+  margin: 0 auto 5px;
+  max-width: 600px;
+}
+
+hr {
+    border-width: 2.5px;
+    background-color: rgb(0, 204, 255);
+    border-color: rgb(0, 204, 255);
+    margin: 20px -20px 0 -20px;
+}
