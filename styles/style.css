@@ -68,7 +68,7 @@ a {
 }
     
 a:visited {
-    color: rgb(0, 132, 255);
+    color: rgb(0, 195, 255);
 }
 
 a:hover {
@@ -81,7 +81,7 @@ a:active {
 
 navtext {
     font-size: 20px; 
-    color: rgb(0, 132, 255); 
+    color: rgb(0, 195, 255); 
     font-family: 'Courier New';
 }
 
