@@ -64,6 +64,10 @@ hr {
 }
 
 a {
+    color: rgb(0, 195, 255)
+}
+
+a.header {
     color: rgb(255, 255, 255);
 }
     
