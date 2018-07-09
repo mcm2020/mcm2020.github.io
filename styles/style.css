@@ -80,6 +80,8 @@ a:active {
 }  
 
 navtext {
+    line-height: 2;
+    letter-spacing: 1px;
     font-size: 20px; 
     color: rgb(0, 195, 255); 
     font-family: 'Courier New';
