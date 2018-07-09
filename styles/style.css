@@ -5,6 +5,9 @@ html {
 }
   
 body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;  
     background-color: white;
 }
 
@@ -30,6 +33,10 @@ p {
     color: black;
 }
 
+.white {
+    color: white;
+}
+
 img {
     display: block;
     margin: 5px auto;
@@ -48,4 +55,8 @@ hr {
     border-color: rgb(0, 0, 0);
     background-color: black;
     margin: 20px -20px 0 -20px;
+}
+
+#wrapper {
+    flex: 1;
 }
