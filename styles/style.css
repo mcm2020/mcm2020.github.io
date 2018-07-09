@@ -45,6 +45,12 @@ img {
     max-width: 600px;
 }
 
+.alt {
+    max-width: 768px;
+    margin: 5px 0;
+    border: 1px solid black;
+}
+
 .caption {
     font-family: 'Courier New';
     text-align: center;
