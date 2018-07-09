@@ -4,7 +4,6 @@
 <head>
   <meta charset="utf-8">
   <title>max c morrison</title>
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
     crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" />
@@ -13,16 +12,40 @@
 </head>
 
 <body>
-
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="#about">
+        <navtext>
+          ABOUT
+        </navtext>
+      </a>
+      <a class="navbar-item" href="#cv">
+          <navtext>
+            CV
+          </navtext>
+      </a>
+      <a class="navbar-item" href="#links">
+          <navtext>
+            LINKS
+          <navtext>
+      </a>
+      
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+  </nav>
   <div class="padded">
-    <img src="images/morrison3-black.png" width="100%" alt="name">
-    <img src="images/port-isobel-island.jpg" width="100%" alt="port isobel island">
+    <img class="top" src="images/morrison3-black.png" width="100%" alt="name">
+    <img class="top" src="images/port-isobel-island.jpg" width="100%" alt="port isobel island">
     
     <p class="caption">Port Isobel Island</p>
 
     <hr>
 
-    <h1>about</h1>
+    <h1><a name="about">about</a></h1>
     <p>Student at the University of Maryland currently pursuing a B.S. in Computer Science with a Minor in Mathematics (2020).
       I also work at the USDA, where I combine my programming and genetics knowledge to analyze invasive insects. Recently,
       I joined UMD's CS departmental honors program, and hope to become involved in research this upcoming semester. Outside
@@ -35,7 +58,7 @@
 
     <hr>
 
-    <h1>cv</h1>
+    <h1><a name="cv">cv</a></h1>
     <img class="alt" src="images/max-morrison-cv.png" width="100%" alt="name">
 
     <hr>
@@ -66,30 +89,38 @@ IIIIilIIIIITTTTTTTIIIIIIIIIIIIITTTTTIIIIIIIIITTTTTTTTTTIIIIIIIIIlIIIIIIIITTTT
 IIIIIIIIITTTTTTTTTTTTTIIIIIIIITTTTTTTTIIIIIITTTTTTTTTTTTTTIIIIIIIIIIIIIITTTTT
     </p>
     <a href="https://www.asciiart.eu/nature/mountains">
-      <div style="font-size: 10px; font-family: 'Courier New', Courier, monospace">
+      <div style="font-size: 10px; font-family: 'Courier New'">
         source
       </div>
+    </a>
+    
+    <hr>
+    <br>
+
+    <a href="#top"><i class="fas fa-angle-up" style="font-size: 50px"></i>
     </a>
 
   </div>
 
   <footer class="footer">
-    <div class="content has-text-centered has-text-white">
-      <p class="white">
+    <a name="links">
+      <div class="content has-text-centered has-text-white">
+        <p class="white">
 
-        <a href="http://www.linkedin.com/in/maxcmorrison">
-          <i class="fab fa-linkedin"></i>
-          linkedin
-        </a>
+          <a href="http://www.linkedin.com/in/maxcmorrison">
+            <i class="fab fa-linkedin"></i>
+            linkedin
+          </a>
 
-        <a href="https://github.com/mcm2020/">
-          <i class="fab fa-github"></i>
-          github
-        </a>
+          <a href="https://github.com/mcm2020/">
+            <i class="fab fa-github"></i>
+            github
+          </a>
 
-        <br> Last Updated: 7/9/18
-      </p>
-    </div>
+          <br> Last Updated: 7/9/18
+        </p>
+      </div>
+    </a>
   </footer>
 
 </body>

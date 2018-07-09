@@ -39,7 +39,7 @@ p {
     color: white;
 }
 
-img {
+.top {
     display: block;
     margin: 5px auto;
     max-width: 600px;
@@ -62,3 +62,29 @@ hr {
     background-color: black;
     margin: 20px -20px 0 -20px;
 }
+
+a {
+    color: rgb(255, 255, 255);
+}
+    
+a:visited {
+    color: rgb(0, 132, 255);
+}
+
+a:hover {
+    color:rgb(255, 0, 0);
+}  
+
+a:active {
+    color:rgb(255, 255, 255);
+}  
+
+navtext {
+    font-size: 20px; 
+    color: rgb(0, 132, 255); 
+    font-family: 'Courier New';
+}
+
+navtext:hover {
+    color:rgb(255, 0, 0);
+}  
