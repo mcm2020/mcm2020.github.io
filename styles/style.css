@@ -5,6 +5,10 @@ html {
 }
   
 body {
+    background-color: white;
+}
+
+.padded{
     margin: 67px;
     background-color: rgb(255, 255, 255);
     padding: 0 20px 20px 20px;
@@ -42,5 +46,6 @@ picture {
 hr {
     border-width: 2.5px;
     border-color: rgb(0, 0, 0);
+    background-color: black;
     margin: 20px -20px 0 -20px;
 }
