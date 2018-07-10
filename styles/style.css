@@ -24,7 +24,8 @@ p {
     font-family: 'Courier New';
     text-align: justify;
     margin: auto;
-    font-size: 24px;    
+    font-size: 24px;
+    font-size: 3.2vmin; 
     line-height: 2;
     letter-spacing: 1px;
 }
