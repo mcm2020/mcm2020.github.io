@@ -9,33 +9,38 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" />
   <link href="styles/main.css" rel="stylesheet" type="text/css">
   <link href="styles/style.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 </head>
 
-<body>
-  <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-      <a class="navbar-item" href="#about">
-        <navtext>
-          about
-        </navtext>
-      </a>
-      <a class="navbar-item" href="#cv">
-          <navtext>
-            cv
-          </navtext>
-      </a>
-      <a class="navbar-item" href="#links">
-          <navtext>
-            links
-          <navtext>
-      </a>
-      <a class="navbar-item" href="#top">
-        <navtext>
-          <i class="fas fa-angle-up" ></i>
-        </navtext>
-      </a>
-      
+<body class="has-navbar-fixed-top">
+  <a name="top">
+    <div class="column">
+      <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="#about">
+            <navtext>
+              about
+            </navtext>
+          </a>
+          <a class="navbar-item" href="#cv">
+              <navtext>
+                cv
+              </navtext>
+          </a>
+          <a class="navbar-item" href="#links">
+              <navtext>
+                links
+              <navtext>
+          </a>
+          <a class="navbar-item" href="#top">
+            <navtext>
+              <i class="fas fa-angle-up" ></i>
+            </navtext>
+          </a>
+          
+        </div>
     </div>
+  </a>
   </nav>
   <div class="padded">
     <img class="top" src="images/morrison3-black.png" width="100%" alt="name">
@@ -44,23 +49,26 @@
     <p class="caption">Port Isobel Island</p>
 
     <hr>
-
-    <h1><a class="header" name="about"></a>about</a></h1>
-    <p>Student at the University of Maryland currently pursuing a B.S. in Computer Science with a Minor in Mathematics (2020).
-      I also work at the USDA, where I combine my programming and genetics knowledge to analyze invasive insects. Recently,
-      I joined UMD's CS departmental honors program, and hope to become involved in research this upcoming semester. Outside
-      of the classroom, I have taught myself Android development using my Java knowledge. I have experience working with
-      many different types of people: the general public as a cashier, pathologists as a research assistant, and middle schoolers
-      as a camp counselor. I am a hard worker, quick to learn, and try to think creatively whenever I can.
-      <br>
-      <br> Enjoy long sunset walks on the beach.
+    <div class="columns">
+      <div class="column">
+        <h1><a class="header" name="about">about</a></h1>
+        <p>Student at the University of Maryland currently pursuing a B.S. in Computer Science with a Minor in Mathematics (2020).
+          I also work at the USDA, where I combine my programming and genetics knowledge to analyze invasive insects. Recently,
+          I joined UMD's CS departmental honors program, and hope to become involved in research this upcoming semester. Outside
+          of the classroom, I have taught myself Android development using my Java knowledge. I have experience working with
+          many different types of people: the general public as a cashier, pathologists as a research assistant, and middle schoolers
+          as a camp counselor. I am a hard worker, quick to learn, and try to think creatively whenever I can.
+          <br>
+          <br> Enjoy long sunset walks on the beach.
+      </div>
     </p>
-
+    </div>
     <hr>
 
-    <h1><a class="header" name="cv">cv</a></h1>
-    <img class="alt" src="images/max-morrison-cv.png" width="100%" alt="name">
-
+    <div class="column">
+      <h1><a class="header" name="cv">cv</a></h1>
+      <img class="alt" src="images/max-morrison-cv.png" width="100%" alt="name">
+    </div>
     <hr>
     
     <p class="ascii-art">
@@ -128,7 +136,7 @@ IIIIIIIIITTTTTTTTTTTTTIIIIIIIITTTTTTTTIIIIIITTTTTTTTTTTTTTIIIIIIIIIIIIIITTTTT
       </div>
     </a>
   </footer>
-
+  <script src="scripts/main.js"></script>
 </body>
 
 </html>
