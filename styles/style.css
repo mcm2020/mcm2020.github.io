@@ -57,6 +57,7 @@ p {
     font-family: 'Courier New';
     text-align: center;
     font-size: 14px;
+    font-size: 2vmin;
 }
 
 hr {
@@ -88,8 +89,9 @@ a:active {
 
 navtext {
     line-height: 2;
-    letter-spacing: 1px;
-    font-size: 3rem; 
+    font-size: 3rem;
+    font-size: 4.3vmin; 
+    letter-spacing: .1vmin;
     color: rgb(0, 195, 255); 
     font-family: 'Courier New';
 }
