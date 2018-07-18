@@ -1,6 +1,6 @@
 html {
     font-size: 10px;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
 }
   
 body {
@@ -42,8 +42,8 @@ body {
 }
 
 .padded{
-    margin: 67px;
-    background-color: rgb(255, 255, 255);
+    margin: 67px 67px 20px;
+    background-color: white;
     padding: 0 20px 20px 20px;
 }
 
@@ -51,7 +51,7 @@ h1 {
     margin: 0 0;
     text-shadow: 2px 2px rgb(0, 0, 0);
     font-size: 10vmin;
-    color: rgb(255, 255, 255);
+    color: white;
 }
   
 p {
@@ -71,18 +71,6 @@ p.ascii-art{
     line-height: 1;
 }
 
-img.top {
-    display: block;
-    margin: 5px auto;
-    max-width: 600px;
-}
-
-img.cv {
-    max-width: 768px;
-    margin: 5px 0;
-    border: 1px solid black;
-}
-
 p.caption {
     font-family: 'Courier New';
     text-align: center;
@@ -91,9 +79,8 @@ p.caption {
 }
 
 hr {
-    border-color: rgb(0, 0, 0);
     background-color: black;
-    margin: 20px -20px 0 -20px;
+    size: 2px;
 }
 
 a {
@@ -101,8 +88,20 @@ a {
     color: black;
 }
 
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: darkorange;
+}  
+
+a:active {
+    color:white;
+}  
+
 a.header {
-    color: rgb(255, 255, 255);
+    color: white;
 }
 
 a.header:hover {
@@ -114,26 +113,6 @@ a.footer {
     color: white;
 }
 
-.footer:visited {
-    color: white;
-}
-
-.footer:hover {
-    color: red;
-}
-
-a:visited {
-    color: black;
-}
-
-a:hover {
-    color:rgb(255, 0, 0);
-}  
-
-a:active {
-    color:rgb(255, 255, 255);
-}  
-
 navtext {
     line-height: 2;
     font-size: 3rem;
@@ -143,11 +122,31 @@ navtext {
     font-family: 'Courier New';
 }
 
+navtext:hover {
+    color:darkorange;
+}
+
 navtext.footer {
     padding: 0;
     color:white;
 }
-navtext:hover {
-    color:rgb(255, 0, 0);
-}  
 
+.footer:visited {
+    color: white;
+}
+
+.footer:hover {
+    color: darkorange;
+}
+
+img.top {
+    display: block;
+    margin: 5px auto;
+    max-width: 600px;
+}
+
+img.cv {
+    max-width: 768px;
+    margin: 5px 0;
+    border: 1px solid black;
+}
