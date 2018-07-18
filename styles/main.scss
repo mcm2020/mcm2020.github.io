@@ -1,7 +1,7 @@
-@import "../vendors/bulma/sass/utilities/initial-variables";
-@import "../vendors/bulma/sass/utilities/functions";
+@import "../node_modules/bulma/sass/utilities/initial-variables";
+@import "../node_modules/bulma/sass/utilities/functions";
 
 $navbar-background-color: white;
 $footer-background-color: black;
 
-@import "../vendors/bulma/bulma.sass";
+@import "../node_modules/bulma/bulma.sass";
