@@ -81,11 +81,11 @@ p.caption {
 hr {
     background-color: black;
     size: .5vmin;
-    margin: 0 0;
+    margin: 0 -10vmin;
 }
 
 a {
-    padding-top: 10vmin;
+    padding-top: 8vmin;
     color: black;
 }
 
@@ -102,6 +102,7 @@ a:active {
 }  
 
 a.header {
+    padding-top: 8vh;
     color: white;
 }
 
