@@ -1,5 +1,6 @@
 html {
     font-size: 10px;
+    font-size: 3.2vmin;
     background-color: white;
 }
   
@@ -42,9 +43,8 @@ body {
 }
 
 .padded{
-    margin: 67px 67px 20px;
+    margin: 20vmin 10vmin 4vmin;
     background-color: white;
-    padding: 0 20px 20px 20px;
 }
 
 h1 {
@@ -80,11 +80,11 @@ p.caption {
 
 hr {
     background-color: black;
-    size: 2px;
+    size: .5vmin;
 }
 
 a {
-    padding-top: 75px;
+    padding-top: 10vmin;
     color: black;
 }
 
