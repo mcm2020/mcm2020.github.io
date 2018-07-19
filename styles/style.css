@@ -85,7 +85,6 @@ hr {
 }
 
 a {
-    padding-top: 15vmin;
     color: black;
 }
 
@@ -143,12 +142,12 @@ navtext.footer {
 
 img.top {
     display: block;
-    margin: 5px auto;
+    margin: 0 auto 1.2vmin;
     max-width: 600px;
 }
 
 img.cv {
     max-width: 768px;
-    margin: 5px 0;
+    margin: 1.2vmin 0;
     border: 1px solid black;
 }
