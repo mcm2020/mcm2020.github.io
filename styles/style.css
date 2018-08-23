@@ -78,6 +78,17 @@ p.caption {
     font-size: 2vmin;
 }
 
+div.quote {
+    background-color: rgba(192, 192, 192, .25);
+    padding: 8vmin;
+}
+
+div.quote p {
+    font-size: 32px;
+    font-size: 4.3vmin;
+    font-style: italic;
+}
+
 hr {
     background-color: black;
     size: .5vmin;
