@@ -11,7 +11,6 @@ body {
      -ms-animation: fadein 2s; /* Internet Explorer */
       -o-animation: fadein 2s; /* Opera < 12.1 */
          animation: fadein 2s;
-    text-rendering: optimizeLegibility;
 }
 
 @keyframes fadein {
